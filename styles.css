@@ -1,0 +1,23 @@
+#run-func{
+    width: 200px;
+    height: 76px;
+    font-size: 36px;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+body{
+    margin: 0;
+    transition-duration: 0.5s;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#run-func:active{
+    background-color: black;
+    color: white;
+}
